@@ -1,0 +1,119 @@
+button{
+    cursor: pointer;
+}
+body{
+    text-transform: capitalize;
+}
+#newBtn{
+    border: none;
+    padding: 15px 10px;
+    border-radius: 50%;
+    background-color: rgb(54, 215, 54);
+    text-transform: uppercase;
+    font-size: 14px;
+    display: block;
+    height: 50px;
+    width: 200px;
+    margin: auto;
+}
+main{
+    display: flex;
+}
+#result-section{
+    flex: 1;
+}
+#cart{
+    flex: 1;
+    margin: 0 3% 3% 3%;
+}
+#result-section table{
+    width: 100%;
+    text-align: center;
+    margin: 2%;
+}
+table{
+    border-collapse: collapse;
+}
+#cart table{
+    width: 100%;
+    text-align: center;
+    margin: 2%;
+}
+#result-section th{
+    font-size: 19px;
+}
+#cart th{
+    font-size: 19px;
+}
+#cartTable th,td{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+
+#product{
+    width: 40%;
+    margin: auto;
+}
+#product input{
+    padding-left: 5px;
+}
+header{
+    font-size: 28px;
+    text-align: center;
+    padding: 10px 0;
+    margin: auto;
+}
+label{
+    display: inline-block;
+    width: 150px;
+    margin-bottom: 10px;
+}
+#empty{
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+#noStock{
+    font-size: 18px;
+}
+#addBtn{
+    border: none;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    padding: 5px 12px;
+    text-align: center;
+}
+#cancelBtn{
+    border: none;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    padding: 5px 12px;
+    text-align: center;
+}
+#addToCartBtn{
+    border: none;
+    border-radius: 10px;
+    background-color:tomato;
+    color: white;
+    padding: 5px 12px;
+    text-align: center;
+}
+#removeFromCartBtn{
+    border: none;
+    border-radius: 10px;
+    background-color:red;
+    color: white;
+    padding: 5px 12px;
+    text-align: center;
+}
+#increase , #decrease{
+    padding: 2px 8px;
+    margin: 0 7px;
+    background-color: aqua;
+    border: none;
+    border-radius: 15%;
+}
